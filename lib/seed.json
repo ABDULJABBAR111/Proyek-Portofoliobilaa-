@@ -1,0 +1,250 @@
+{
+ "barang": [
+  {
+   "kode": "BR001",
+   "nama": "Meja Kantor",
+   "harga": 850000,
+   "stok": 12
+  },
+  {
+   "kode": "BR002",
+   "nama": "Kursi Kantor",
+   "harga": 450000,
+   "stok": 25
+  },
+  {
+   "kode": "BR003",
+   "nama": "Printer",
+   "harga": 1750000,
+   "stok": 8
+  },
+  {
+   "kode": "BR004",
+   "nama": "Kalkulator",
+   "harga": 125000,
+   "stok": 13
+  },
+  {
+   "kode": "BR005",
+   "nama": "Mouse",
+   "harga": 87000,
+   "stok": 6
+  },
+  {
+   "kode": "BR006",
+   "nama": "Mesin",
+   "harga": 975000,
+   "stok": 10
+  },
+  {
+   "kode": "BR007",
+   "nama": "Printer Label",
+   "harga": 1650000,
+   "stok": 15
+  },
+  {
+   "kode": "BR008",
+   "nama": "Timbangan Digital",
+   "harga": 3250000,
+   "stok": 9
+  },
+  {
+   "kode": "BR009",
+   "nama": "Lemari Arsip",
+   "harga": 2100000,
+   "stok": 5
+  },
+  {
+   "kode": "BR010",
+   "nama": "Buku Tulis",
+   "harga": 9000,
+   "stok": 25
+  }
+ ],
+ "transaksi": [
+  {
+   "kode": "BR004",
+   "jumlah": 8
+  },
+  {
+   "kode": "BR001",
+   "jumlah": 3
+  },
+  {
+   "kode": "BR006",
+   "jumlah": 2
+  },
+  {
+   "kode": "BR015",
+   "jumlah": 2
+  },
+  {
+   "kode": "BR008",
+   "jumlah": 5
+  }
+ ],
+ "invoice_lines": [
+  {
+   "no_inv": 1,
+   "nama": "Cushion",
+   "qty": 2,
+   "harga": 82000
+  },
+  {
+   "no_inv": 1,
+   "nama": "Lip Cream",
+   "qty": 3,
+   "harga": 53000
+  },
+  {
+   "no_inv": 1,
+   "nama": "Lip Vinly",
+   "qty": 5,
+   "harga": 36500
+  },
+  {
+   "no_inv": 2,
+   "nama": "Serum",
+   "qty": 1,
+   "harga": 76200
+  },
+  {
+   "no_inv": 2,
+   "nama": "Hair Mask",
+   "qty": 3,
+   "harga": 87000
+  },
+  {
+   "no_inv": 2,
+   "nama": "Clay Mask",
+   "qty": 2,
+   "harga": 67000
+  },
+  {
+   "no_inv": 2,
+   "nama": "Eyeliner",
+   "qty": 4,
+   "harga": 59500
+  },
+  {
+   "no_inv": 2,
+   "nama": "Lip blam",
+   "qty": 10,
+   "harga": 46900
+  },
+  {
+   "no_inv": 3,
+   "nama": "Blush on",
+   "qty": 9,
+   "harga": 80000
+  },
+  {
+   "no_inv": 3,
+   "nama": "Mascara",
+   "qty": 2,
+   "harga": 88400
+  },
+  {
+   "no_inv": 4,
+   "nama": "Body Scrub",
+   "qty": 3,
+   "harga": 45000
+  },
+  {
+   "no_inv": 4,
+   "nama": "Body serum",
+   "qty": 7,
+   "harga": 98000
+  },
+  {
+   "no_inv": 4,
+   "nama": "Parfum",
+   "qty": 3,
+   "harga": 77800
+  },
+  {
+   "no_inv": 4,
+   "nama": "Loose Powder",
+   "qty": 1,
+   "harga": 87000
+  },
+  {
+   "no_inv": 4,
+   "nama": "Brush",
+   "qty": 2,
+   "harga": 65000
+  }
+ ],
+ "arus_kas": [
+  {
+   "tanggal": "2026-09-01",
+   "keterangan": "Penerima Jasa",
+   "kategori": "Pendapatan Jasa",
+   "arus": "Masuk",
+   "nominal": 2500000
+  },
+  {
+   "tanggal": "2026-09-02",
+   "keterangan": "Penerima Pembayaran Pelanggan",
+   "kategori": "Pendapatan Jasa",
+   "arus": "Masuk",
+   "nominal": 1500000
+  },
+  {
+   "tanggal": "2026-09-03",
+   "keterangan": "Penerima Perlengkapan Kantor",
+   "kategori": "Operasional",
+   "arus": "Keluar",
+   "nominal": 350000
+  },
+  {
+   "tanggal": "2026-09-04",
+   "keterangan": "Penerimaan jasa proyek",
+   "kategori": "Pendapatan Jasa",
+   "arus": "Masuk",
+   "nominal": 3000000
+  },
+  {
+   "tanggal": "2026-09-05",
+   "keterangan": "Pembayaran Transportasi",
+   "kategori": "Operasional",
+   "arus": "Keluar",
+   "nominal": 150000
+  },
+  {
+   "tanggal": "2026-09-06",
+   "keterangan": "Pembayaran Gaji Staff",
+   "kategori": "Gaji",
+   "arus": "Keluar",
+   "nominal": 1000000
+  },
+  {
+   "tanggal": "2026-09-07",
+   "keterangan": "Penerimaan Pembayaran Pelanggan",
+   "kategori": "Pendapatan Jasa",
+   "arus": "Masuk",
+   "nominal": 1800000
+  },
+  {
+   "tanggal": "2026-09-08",
+   "keterangan": "Pembayaran Listrik dan internet",
+   "kategori": "Utilitas",
+   "arus": "Keluar",
+   "nominal": 250000
+  },
+  {
+   "tanggal": "2026-09-09",
+   "keterangan": "Pembelian Perlengkapan",
+   "kategori": "Operasional",
+   "arus": "Keluar",
+   "nominal": 400000
+  },
+  {
+   "tanggal": "2026-09-10",
+   "keterangan": "penerimaan jasa",
+   "kategori": "Pendapatan Jasa",
+   "arus": "Masuk",
+   "nominal": 1200000
+  }
+ ]
+}
